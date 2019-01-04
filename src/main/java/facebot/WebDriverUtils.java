@@ -8,7 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class WebDriverUtils {
 
 	public static WebDriver getWebDriver(String webdriver, String profileDir){
-        System.getProperties().setProperty("webdriver.chrome.driver", "D:\\Desktop 5\\hacks\\facebot\\chromedriver.exe");
+        System.getProperties().setProperty("webdriver.chrome.driver", webdriver);
         
         DesiredCapabilities dc = DesiredCapabilities.chrome();              
 //        System.setProperty("http.proxyHost", "127.0.0.1");
